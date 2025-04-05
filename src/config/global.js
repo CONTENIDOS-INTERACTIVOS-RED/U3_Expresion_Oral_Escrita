@@ -56,13 +56,15 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Estructura y recursos para la producción de diferentes tipos de textos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Redacción clara, cohesión y coherencia en la escritura profesional',
             hash: 't_2_3',
           },
         ],

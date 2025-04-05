@@ -263,12 +263,12 @@
             .col-lg
               p.mb-0 Otro aspecto clave en la redacción académica es la necesidad de estructurar el contenido en párrafos bien definidos. Cada párrafo debe presentar una idea principal respaldada por información secundaria o ejemplos específicos. La estructura del texto debe permitir un desarrollo progresivo de las ideas, evitando saltos abruptos entre un punto y otro. Para ello, es recomendable planificar previamente el contenido mediante la elaboración de esquemas o mapas conceptuales (Camps & Castelló, 2013).
     
-    .bg-full-width.bg-color-14.mb-lg-5
+    .bg-full-width.bg-color-14.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2
             h2.mb-4(data-aos="flip-up") Estrategias para mejorar la redacción académica
-            p.mb-4(data-aos="fade-right") Se invita a la lectura del documento Estrategias para mejorar la redacción académica, el cual ofrece un conjunto de recomendaciones clave para desarrollar una escritura clara, precisa y estructurada en el ámbito académico. 
+            p.mb-4(data-aos="fade-right") Se invita a la lectura del documento <b>Estrategias para mejorar la redacción académica,</b> el cual ofrece un conjunto de recomendaciones clave para desarrollar una escritura clara, precisa y estructurada en el ámbito académico. 
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
