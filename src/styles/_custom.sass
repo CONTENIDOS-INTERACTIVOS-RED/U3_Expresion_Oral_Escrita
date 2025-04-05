@@ -53,6 +53,10 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,219,255,1) 51%, rgba(255,255,255,1) 100%)
   &-18
     background-color: #ECFBDC
+  &-19
+    background-color: #F2E0FA
+  &-20
+    background-color: #EBB8FF
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -108,6 +112,44 @@
     height: 82%
     transform: translateY(-0%)
     background-color: #FFF4D5
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%
+.bg-h85-4
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #F2E0FA
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      bottom: 0
+      height: 100%
+.bg-h85-5
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 82%
+    transform: translateY(-0%)
+    background-color: #FFF9E9
     z-index: 0
   .col-lg-12
     z-index: 1

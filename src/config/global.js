@@ -15,7 +15,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Normas fundamentales de la escritura académica',
         desarrolloContenidos: true,
         subMenu: [
           {
